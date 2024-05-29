@@ -1,5 +1,8 @@
 # rust_struct_d_and_d_game
 
+# 유료 강의 소개240529
+- 240529러스트1기_day6_struct_impl_Ubuntu24.04
+  - https://youtube.com/live/pU7V6r26SBg?feature=share
 
 # 러스트 컴파일 빠르게 세팅 & nightly 사용
 - Faster compilation with the parallel front-end in nightly
