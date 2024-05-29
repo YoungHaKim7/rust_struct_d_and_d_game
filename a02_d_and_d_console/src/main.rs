@@ -174,7 +174,6 @@ fn main() {
 
         if dungeon.current_room == dungeon.rooms.len() - 1 {
             println!("You have cleared the dungeon. Congratulations!");
-            drop(dungeon);
             break;
         }
     }
