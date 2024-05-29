@@ -19,13 +19,23 @@
 
 - https://rust-unofficial.github.io/too-many-lists/fifth-miri.html
 
-```
+```bash
 cargo miri test
 ```
 
 
+```bash
+MIRIFLAGS=-Zmiri-disable-isolation cargo miri run  
 ```
+
+```bash
 MIRIFLAGS=-Zmiri-backtrace=full cargo miri run
+```
+
+- valgrind test(memory leak 테스트)
+
+```bash
+valgrind --leak-check=full --show-leak-kinds=all ./a02_d_and_d_console
 ```
 
 <hr>
