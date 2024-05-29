@@ -4,6 +4,9 @@
 - 240529러스트1기_day6_struct_impl_Ubuntu24.04
   - https://youtube.com/live/pU7V6r26SBg?feature=share
 
+  - Rust디스코드 강의 책 - https://economiceco.tistory.com/m/19359
+
+
 <hr> 
 
 # 러스트 컴파일 빠르게 세팅 & nightly 사용
