@@ -72,3 +72,38 @@ ruct_d_and_d_game/a06_arc_d_and_d/target/debug/a06_arc_d_and_d)
 
 ```
 
+
+- `MIRIFLAGS=-Zmiri-disable-isolation cargo miri run`
+
+```bash
+MIRIFLAGS=-Zmiri-disable-isolation cargo miri run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `/home/y/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/c
+argo-miri runner target/miri/x86_64-unknown-linux-gnu/debug/a06_arc_d_and_d`
+Welcome to the dungeon, Hero!
+You are in a dark cave.
+You encounter a Goblin!
+1. Attack
+2. Run
+1
+You attack the Goblin. It now has 20 health.
+The Goblin attacks you. You now have 95 health.
+You encounter a Goblin!
+1. Attack
+2. Run
+1
+You attack the Goblin. It now has 10 health.
+The Goblin attacks you. You now have 90 health.
+You encounter a Goblin!
+1. Attack
+2. Run
+2
+You run away!
+You find a treasure chest.
+You find a treasure worth 50 gold!
+You are in an empty room.
+The room is empty.
+You have cleared the dungeon. Congratulations!
+Game over.
+
+```
