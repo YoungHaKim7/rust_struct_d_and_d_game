@@ -48,3 +48,6 @@ valgrind --leak-check=full --show-leak-kinds=all ./a02_d_and_d_console
   - 게임은 복잡한 상태 머신이고 요구사항이 계속 바뀌기 때문에 Rust의 정적이고 과도하게 검사하는 특성과 맞지 않음  
   - 코드를 계속 리팩토링해야 하는 문제는 self-inflicted임  
 - ...
+
+# Rc 관련
+- https://stackoverflow.com/questions/77372176/rust-closure-refcell-rc-count

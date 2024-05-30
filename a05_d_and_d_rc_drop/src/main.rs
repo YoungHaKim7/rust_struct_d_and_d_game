@@ -185,6 +185,7 @@ fn main() {
 
     // Explicitly drop the stdin reader
     drop(stdin);
+    drop(input);
 
     // Ensure everything is dropped properly by the end of main
     println!("Game over.");
