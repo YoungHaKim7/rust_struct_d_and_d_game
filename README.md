@@ -55,3 +55,8 @@ valgrind --leak-check=full --show-leak-kinds=all ./a02_d_and_d_console
 
 - Rc 타입과 Weak 타입 - Rust 프로그래밍
   - https://taegit.tistory.com/17
+
+# Arc관련
+
+- Rust: Using Mutex and Arc to mutate
+   - https://stackoverflow.com/questions/75238451/rust-using-mutex-and-arc-to-mutate
