@@ -52,3 +52,6 @@ valgrind --leak-check=full --show-leak-kinds=all ./a02_d_and_d_console
 # Rc 관련
 - https://stackoverflow.com/questions/77372176/rust-closure-refcell-rc-count
 - https://stackoverflow.com/questions/68155266/edit-refcell-in-closure
+
+- Rc 타입과 Weak 타입 - Rust 프로그래밍
+  - https://taegit.tistory.com/17
