@@ -51,3 +51,4 @@ valgrind --leak-check=full --show-leak-kinds=all ./a02_d_and_d_console
 
 # Rc 관련
 - https://stackoverflow.com/questions/77372176/rust-closure-refcell-rc-count
+- https://stackoverflow.com/questions/68155266/edit-refcell-in-closure
